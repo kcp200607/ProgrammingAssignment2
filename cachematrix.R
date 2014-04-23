@@ -3,6 +3,9 @@
 
 ## Write a short comment describing this function
 
+##save a matrix to a value. initialize a value the inverse of 
+##the of the input matrix
+
 makeCacheMatrix <- function(x = matrix()) {
         
         myCacheOrigin <<- x
@@ -24,6 +27,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## return the inverse of the given matrix
+## calculate the inverse if it had not been calculated
+## return the cached inverse matrix if it has been calculuated
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
